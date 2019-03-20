@@ -1,8 +1,8 @@
-This page shows how to quickly set up the Steeltoe Configuration extension in an ASP.NET Core application for accessing configuration values served by a [Spring Cloud Config](http://cloud.spring.io/spring-cloud-config/) Config Server.
+This page shows how to quickly set up the Steeltoe Configuration extension in an ASP.NET Core application for accessing configuration values served by a [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/) Config Server.
 
 ### Step 0: Run a Config Server
 
-We will need a running Config Server from which our application can request configuration. To run the Config Server, we'll also need the Java Development Kit (JDK). [Download](http://www.oracle.com/technetwork/java/javase/downloads/index.html) the JDK from the Oracle website and follow the instructions to [install](http://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html) it. Then open Control Panel, search for and select "Edit the system environment variables", and add a system environment variable called `JAVA_HOME`, with the JDK installation's path (something like `C:\Program Files\Java\jdk1.8.0_91`) as the value.
+We will need a running Config Server from which our application can request configuration. To run the Config Server, we'll also need the Java Development Kit (JDK). [Download](https://www.oracle.com/technetwork/java/javase/downloads/index.html) the JDK from the Oracle website and follow the instructions to [install](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html) it. Then open Control Panel, search for and select "Edit the system environment variables", and add a system environment variable called `JAVA_HOME`, with the JDK installation's path (something like `C:\Program Files\Java\jdk1.8.0_91`) as the value.
 
 We will need [Git](https://git-scm.com) in order to obtain the code for the Config Server that we'll be using. If you haven't already installed Git, follow the [instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to do so. You may wish to look at [Git for Windows](https://git-for-windows.github.io).
 

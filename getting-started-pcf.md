@@ -1,4 +1,4 @@
-This page shows how to quickly set up the Steeltoe Configuration extension in an ASP.NET Core application for accessing configuration values served by a [Spring Cloud Services](https://network.pivotal.io/products/p-spring-cloud-services) Config Server service instance on [Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/pivotal-cf) (PCF). We'll use [PCF Dev](http://pivotal.io/pcf-dev) for this purpose; if you don't yet have PCF Dev installed, follow the [tutorial at pivotal.io](http://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry-dev/introduction) before proceeding with these instructions.
+This page shows how to quickly set up the Steeltoe Configuration extension in an ASP.NET Core application for accessing configuration values served by a [Spring Cloud Services](https://network.pivotal.io/products/p-spring-cloud-services) Config Server service instance on [Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/pivotal-cf) (PCF). We'll use [PCF Dev](https://pivotal.io/pcf-dev) for this purpose; if you don't yet have PCF Dev installed, follow the [tutorial at pivotal.io](https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry-dev/introduction) before proceeding with these instructions.
 
 ### Step 0: Create a Config Server Service Instance
 
@@ -48,7 +48,7 @@ Bound apps:
 Tags:
 Plan: standard
 Description: Config Server for Spring Cloud Applications
-Documentation url: http://docs.pivotal.io/spring-cloud-services/
+Documentation url: https://docs.pivotal.io/spring-cloud-services/
 Dashboard: https://spring-cloud-broker.local2.pcfdev.io/dashboard/p-config-server/37f28420-3074-49f9-bfc8-500a977c3ccb
 
 Last Operation
